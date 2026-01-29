@@ -1,0 +1,3 @@
+[submodule "server"]
+	path = server
+	url = https://github.com/Nathan-Richard-21/doctor-portal-server.git

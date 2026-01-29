@@ -1,0 +1,8 @@
+Model Information:
+* title:	Variety of Pills
+* source:	https://sketchfab.com/3d-models/variety-of-pills-83bfae312e3b4655a7520c63332de54f
+* author:	assetfactory (https://sketchfab.com/assetfactory)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works
