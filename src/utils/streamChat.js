@@ -1,7 +1,7 @@
 import { StreamChat } from 'stream-chat';
 
-// Stream Chat configuration
-export const STREAM_API_KEY = 'red6v7mkv75p';
+// Stream Chat configuration - public API key (safe to expose)
+export const STREAM_API_KEY = import.meta.env.VITE_STREAM_CHAT_API_KEY || 'red6v7mkv75p';
 
 // Initialize Stream Chat client (client-side, without secret)
 export const chatClient = StreamChat.getInstance(STREAM_API_KEY);

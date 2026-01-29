@@ -2,7 +2,8 @@ import React, { useState, useEffect, useRef } from 'react';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
 
-const GOOGLE_MAPS_API_KEY = 'AIzaSyAAmkkeeQEY6FimgzmkxwQpHyE_CC93QxM';
+// Use environment variable for Google Maps API key
+const GOOGLE_MAPS_API_KEY = import.meta.env.VITE_GOOGLE_MAPS_API_KEY || '';
 
 const MapContainer = styled.div`
   width: 100%;
